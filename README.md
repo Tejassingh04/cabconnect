@@ -1,7 +1,7 @@
 CabConnect – College Project
 
-cabconnect is a web-based platform built as a group college project for booking long-distance cabs within Madhya Pradesh.
-provided report and synopsis of this project.
+cabconnect is a web-based platform built as a group college project for booking long-distance cabs within Madhya Pradesh.<br>
+Provided report and synopsis of this project.
 
 ---
 

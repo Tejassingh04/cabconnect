@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman';
+}
+footer{
+    background-color: bisque;
+}
+.detail{
+    display: flex;
+    justify-content: space-evenly ;
+    flex-direction: row;
+}
+.detail a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem ;
+    align-items: center;
+}
+.contactus, ul{
+    font-size:1rem ;
+}
+.location, ul{
+    font-size: 1rem ;
+}
+.deatil, ul, li{
+    list-style: none;
+}
+.copyright p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}

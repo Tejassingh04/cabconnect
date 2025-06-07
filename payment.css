@@ -1,0 +1,140 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman';
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20vh; */
+}
+.navbar{
+    display: flex ;
+    justify-content: space-between;
+    background-color: rgb(243, 136, 36);
+    height: 18vh;
+}
+.logo img{
+    height: 13.6vh;
+    width: 13.02vw;
+}
+.logo h4{
+    padding-left: 1.6vw;
+    color: #2e5983;
+}
+h1{
+    padding: 5vh 8vh 5vh 5vh;
+}
+.bookings{
+    margin-top: 10vh;
+    text-align: center;
+    color:rgb(216, 145, 78) ;
+}
+.dialogbox{
+    border: 1px solid black;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    height: 60vh;
+    width: 60vw;
+    margin-bottom: 10vh;
+    display: flex;
+}
+.carimage{
+    height: 60vh;
+    width: 40%;
+    background-color: bisque;
+    border:1px solid black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right {
+    padding-top: 4%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+}
+.top {
+    flex: 2; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cardetail{
+    /* font-size:larger; */
+    line-height: 1.5rem;
+    text-align: center;
+}
+.bottom {
+    flex: 1;
+    display: flex;
+}
+.upi{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input[type="text"]{
+    height: 30px;
+    width: 250px;
+} 
+.cash {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.upibutton{
+    height: 5vh;
+    width: 10vw;
+}
+.cashbutton{
+    height: 5vh;
+    width: 10vw;
+}
+footer {
+    background-color:  rgb(243, 136, 36);
+}
+.detail{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 1.5%;
+}
+.aboutus {
+    width: 33.33%;
+    display: block;
+    place-items: center;
+}
+.contactus{
+    width: 33.33%;
+    display: block;
+    place-items: center;
+}
+.location{
+    width: 33.33%;
+    display: block;
+    place-items: center;
+}
+.contactus, ul{
+    font-size:1rem;
+}
+.location, ul{
+    font-size: 1rem;
+}
+.detail, ul, li{
+    list-style-type: none;
+}
+.copyright p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1%;
+}
+    

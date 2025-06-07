@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Times New Roman';
+}
+.navbar{
+    display: flex ;
+    justify-content: space-between;
+    background-color: rgb(243, 136, 36);
+    height: 18vh;
+}
+.logo img{
+    height: 13.6vh;
+    width: 13.02vw;
+}
+.logo h4{
+    padding-left: 1.6vw;
+    color: #2e5983;
+}
+h1{
+    padding: 5vh 8vh 5vh 5vh;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20vh; */
+}
+.receipt{
+    border: 1px dotted black;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    height: 73vh;
+    width: 36vw;
+    margin: 10vh 0vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:rgb(246, 222, 200) ;
+}
+#company{
+    padding-top: 2vh;
+    font-size: x-large;
+}
+#tagline{
+    font-size: small;
+}
+#address{
+    padding-top: 1vh;
+    font-size:large;
+
+}
+#number{
+    padding-bottom: 1vh;
+    font-size:large;
+}
+#main{
+    padding: 2vh 0vh;
+    font-size:x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#car{
+    padding: 1vh 0vh;
+    font-size:large;
+}
+#cardetail{
+    line-height: 2.8vh;
+    padding-bottom: 1vh;
+    font-size:large;
+}
+#driver{
+    padding: 1vh 0vh;
+    font-size:large;
+}
+#driverdetail{
+    line-height: 2.8vh;
+    padding-bottom: 1vh;
+    font-size:large;
+}
+#total{
+    padding: 2vh 0vh;
+    font-size:x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.shadow-hr {
+    border: none;
+    height: 0.1vh;
+    background-color: black;
+    box-shadow: 0px 2px 5px gray;
+    width: 90%; /* Adjust width as needed */
+    margin: 0vh auto;
+}
+.print{
+    margin: 1vh;
+    border: none;
+    background-color:rgb(246, 222, 200) ;
+    height: 3vh;
+    width: 4vw;
+}
+.print:hover{
+    background-color: rgb(22, 106, 175);
+}
+footer {
+    background-color:  rgb(243, 136, 36);
+}
+.detail{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 1.5%;
+}
+.aboutus {
+    width: 33.33%;
+    display: block;
+    place-items: center;
+}
+.contactus{
+    width: 33.33%;
+    display: block;
+    place-items: center;
+}
+.location{
+    width: 33.33%;
+    display: block;
+    place-items: center;
+}
+.contactus, ul{
+    font-size:1rem;
+}
+.location, ul{
+    font-size: 1rem;
+}
+.detail, ul, li{
+    list-style-type: none;
+}
+.copyright p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1%;
+}
+    

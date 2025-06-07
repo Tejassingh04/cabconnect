@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman';
+}
+body{
+    background-image: url('collage.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 72%;
+    background-position: center;
+}
+.navbar{
+    display: flex ;
+    justify-content: space-between;
+    background-color: rgb(243, 136, 36);
+    height: 18vh;
+}
+.logo img{
+    height: 13.6vh;
+    width: 13.02vw;
+}
+.logo h4{
+    padding-left: 1.6vw;
+    color: #2e5983;
+}
+h1{
+    padding: 5vh 8vh 5vh 5vh;
+}
+.dialoguebox1{
+    border: 1px solid black;
+    margin: 10vh 35vh;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+.dialoguebox1 h3{
+    text-align: center;
+    padding: 2vh;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+label, input, select {
+    display: block;
+    margin: 0vh 1.3vw;
+}
+input{
+    height: 3vh;
+    width: 20vw;
+    font-size: 1rem;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+select, option{
+    height: 3vh;
+    width: 20vw;
+    font-size: 1rem;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+input::placeholder{
+    text-align: center;
+    color: black;
+}
+input[type="date"]{
+    text-align: center;
+    text-transform: capitalize;
+}
+input[type="text"]::placeholder {
+    text-align: center; 
+  
+}
+button {
+    padding: 10px;
+    width: 21vw;
+    height: 6vh;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    display: block;
+    border: 1px solid black;
+    margin: 20px 0px 10px 10px;
+    padding-bottom: 15px;
+}
+button:hover{
+     background-color:rgb(53, 55, 194) ;
+}
+footer {
+    background-color:  rgb(243, 136, 36);
+    }
+    .detail{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 1.5%;
+    }
+   .aboutus {
+        width: 33.33%;
+display: block;
+place-items: center;
+    }
+.contactus{
+       width: 33.33%;
+    display: block;
+place-items: center;
+   }
+   .location{
+       width: 33.33%;
+    display: block;
+place-items: center;
+   }
+    .contactus, ul{
+    font-size:1rem;
+    }
+    .location, ul{
+    font-size: 1rem;
+   }
+    .detail, ul, li{
+    list-style-type: none;
+    }
+    .copyright p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1%;
+    }
+    
